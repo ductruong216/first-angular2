@@ -23,6 +23,11 @@
               "src/assets"
             ],
             "styles": [
+              "node_modules/bootstrap/dist/css/bootstrap.min.css",
+              "node_modules/font-awesome/css/font-awesome.min.css",
+              "node_modules/nprogress/nprogress.css",
+              "src/assets/css/custom.css",
+              "node_modules//animate.css/animate.min.css",
               "src/styles.css"
             ],
             "scripts": []
@@ -32,7 +37,7 @@
               "fileReplacements": [
                 {
                   "replace": "src/environments/environment.ts",
-                   "with": "src/environments/environment.prod.ts"
+                  "with": "src/environments/environment.prod.ts"
                 }
               ],
               "optimization": true,
